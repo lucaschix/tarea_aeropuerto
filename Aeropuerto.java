@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Aeropuerto {
@@ -5,14 +6,11 @@ public class Aeropuerto {
 	private String nombre;
 	private String ubicacion;
 
+
+
 	public String getNombre() {
 		return this.nombre;
 	}
-
-	/**
-	 * 
-	 * @param nombre
-	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
@@ -20,11 +18,6 @@ public class Aeropuerto {
 	public String getUbicacion() {
 		return this.ubicacion;
 	}
-
-	/**
-	 * 
-	 * @param ubicacion
-	 */
 	public void setUbicacion(String ubicacion) {
 		this.ubicacion = ubicacion;
 	}
@@ -34,27 +27,20 @@ public class Aeropuerto {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param fecha
-	 */
 	public void buscarUsuariosPorFecha(Date fecha) {
 		// TODO - implement Aeropuerto.buscarUsuariosPorFecha
 		throw new UnsupportedOperationException();
 	}
-
-	/**
-	 * 
-	 * @param idVuelo
-	 */
 	public void buscarUsuariosPorVuelo(String idVuelo) {
 		// TODO - implement Aeropuerto.buscarUsuariosPorVuelo
 		throw new UnsupportedOperationException();
 	}
 
-	public Aeropuerto() {
-		// TODO - implement Aeropuerto.Aeropuerto
-		throw new UnsupportedOperationException();
-	}
+	public Aeropuerto(String nombre, String ubicacion) {
+		this.nombre = nombre;
+		this.ubicacion = ubicacion;
+
+
+}
 
 }

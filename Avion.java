@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Avion {
@@ -5,16 +6,17 @@ public class Avion {
 	private int id;
 	private int capacidad;
 	private List<Vuelo> vuelos;
-	private int attribute;
+
+	public Avion(int id, int capacidad) {
+		this.id = id;
+		this.capacidad = capacidad;
+		this.vuelos = new ArrayList<>();
+	}
 
 	public int getId() {
 		return this.id;
 	}
 
-	/**
-	 * 
-	 * @param id
-	 */
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -23,10 +25,6 @@ public class Avion {
 		return this.capacidad;
 	}
 
-	/**
-	 * 
-	 * @param capacidad
-	 */
 	public void setCapacidad(int capacidad) {
 		this.capacidad = capacidad;
 	}
@@ -35,26 +33,16 @@ public class Avion {
 		return this.vuelos;
 	}
 
-	/**
-	 * 
-	 * @param vuelos
-	 */
 	public void setVuelos(List<Vuelo> vuelos) {
 		this.vuelos = vuelos;
 	}
 
-	/**
-	 * 
-	 * @param vuelo
-	 */
 	public void registrarVuelo(Vuelo vuelo) {
-		// TODO - implement Avion.registrarVuelo
-		throw new UnsupportedOperationException();
+		// Implementación pendiente
 	}
 
-	public Avion() {
-		// TODO - implement Avion.Avion
-		throw new UnsupportedOperationException();
+	public void agregarVuelo(Vuelo vuelo) {
+		vuelos.add(vuelo);
+		System.out.println("Vuelo agregado");
 	}
-
 }

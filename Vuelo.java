@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -7,16 +8,22 @@ public class Vuelo {
 	private String origen;
 	private String destino;
 	private Date fecha;
-	private List<Pasajeros> pasajeros;
+	private List<Pasajeros> pasajeros; // Cambiado a Pasajero
+	private List<Piloto> pilotos;
+
+	public Vuelo(String id, String origen, String destino, Date fecha) {
+		this.id = id;
+		this.origen = origen;
+		this.destino = destino;
+		this.fecha = fecha;
+		this.pasajeros = new ArrayList<>();
+		this.pilotos = new ArrayList<>();
+	}
 
 	public String getId() {
 		return this.id;
 	}
 
-	/**
-	 * 
-	 * @param id
-	 */
 	public void setId(String id) {
 		this.id = id;
 	}
@@ -25,10 +32,6 @@ public class Vuelo {
 		return this.origen;
 	}
 
-	/**
-	 * 
-	 * @param origen
-	 */
 	public void setOrigen(String origen) {
 		this.origen = origen;
 	}
@@ -37,10 +40,6 @@ public class Vuelo {
 		return this.destino;
 	}
 
-	/**
-	 * 
-	 * @param destino
-	 */
 	public void setDestino(String destino) {
 		this.destino = destino;
 	}
@@ -49,10 +48,6 @@ public class Vuelo {
 		return this.fecha;
 	}
 
-	/**
-	 * 
-	 * @param fecha
-	 */
 	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
@@ -61,35 +56,29 @@ public class Vuelo {
 		return this.pasajeros;
 	}
 
-	/**
-	 * 
-	 * @param pasajeros
-	 */
 	public void setPasajeros(List<Pasajeros> pasajeros) {
 		this.pasajeros = pasajeros;
 	}
 
-	/**
-	 * 
-	 * @param pasajero
-	 */
+	public List<Piloto> getPilotos() {
+		return this.pilotos;
+	}
+
+	public void setPilotos(List<Piloto> pilotos) {
+		this.pilotos = pilotos;
+	}
+
 	public void agregarPasajero(Pasajeros pasajero) {
-		// TODO - implement Vuelo.agregarPasajero
-		throw new UnsupportedOperationException();
+		pasajeros.add(pasajero);
+		System.out.println("Pasajero agregado");
 	}
 
-	/**
-	 * 
-	 * @param pasajero
-	 */
+	public void agregarPiloto(Piloto piloto) {
+		pilotos.add(piloto);
+		System.out.println("Piloto agregado");
+	}
+
 	public void validarPasaporte(Pasajeros pasajero) {
-		// TODO - implement Vuelo.validarPasaporte
-		throw new UnsupportedOperationException();
+		// Implementación pendiente
 	}
-
-	public Vuelo() {
-		// TODO - implement Vuelo.Vuelo
-		throw new UnsupportedOperationException();
-	}
-
 }

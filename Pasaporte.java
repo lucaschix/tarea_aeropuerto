@@ -62,9 +62,11 @@ public class Pasaporte {
 		throw new UnsupportedOperationException();
 	}
 
-	public Pasaporte() {
-		// TODO - implement Pasaporte.Pasaporte
-		throw new UnsupportedOperationException();
+	public Pasaporte(int ID, String nacionalidad, int num_hojas, Date fechaExpiracion) {
+		this.ID = ID;
+		this.nacionalidad = nacionalidad;
+		this.num_hojas = num_hojas;
+		this.fechaExpiracion = fechaExpiracion;
 	}
 
 }

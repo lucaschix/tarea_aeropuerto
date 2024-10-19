@@ -40,9 +40,10 @@ public class Persona {
 		this.pasaporte = pasaporte;
 	}
 
-	public Persona() {
-		// TODO - implement Persona.Persona
-		throw new UnsupportedOperationException();
+	public Persona(String nombre, int edad, Pasaporte pasaporte) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.pasaporte = pasaporte;
 	}
 
 }
