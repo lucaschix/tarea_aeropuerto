@@ -1,10 +1,12 @@
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Aeropuerto {
 
 	private String nombre;
 	private String ubicacion;
+	private List<Avion> aviones;
 
 
 
@@ -39,8 +41,12 @@ public class Aeropuerto {
 	public Aeropuerto(String nombre, String ubicacion) {
 		this.nombre = nombre;
 		this.ubicacion = ubicacion;
+		this.aviones = new ArrayList<>();
 
 
 }
-
+	public void agregarAvion(Avion avion){
+		aviones.add(avion);
+		System.out.println("Avion ");
+	}
 }
