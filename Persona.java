@@ -7,11 +7,6 @@ public class Persona {
 	public String getNombre() {
 		return this.nombre;
 	}
-
-	/**
-	 * 
-	 * @param nombre
-	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
@@ -20,29 +15,20 @@ public class Persona {
 		return this.edad;
 	}
 
-	/**
-	 * 
-	 * @param edad
-	 */
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-
 	public Pasaporte getPasaporte() {
 		return this.pasaporte;
 	}
-
-	/**
-	 * 
-	 * @param pasaporte
-	 */
 	public void setPasaporte(Pasaporte pasaporte) {
 		this.pasaporte = pasaporte;
 	}
 
-	public Persona() {
-		// TODO - implement Persona.Persona
-		throw new UnsupportedOperationException();
+	public Persona(String nombre, int edad, Pasaporte pasaporte) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.pasaporte = pasaporte;
 	}
 
 }
