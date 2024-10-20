@@ -7,15 +7,27 @@ public class Pasaporte {
 	private int num_hojas;
 	private Date fechaExpiracion;
 
-	public int getID() {
-		// TODO - implement Pasaporte.getID
-		throw new UnsupportedOperationException();
+	// Constructor
+	public Pasaporte(int ID, String nacionalidad, int num_hojas, Date fechaExpiracion) {
+		this.ID = ID;
+		this.nacionalidad = nacionalidad;
+		this.num_hojas = num_hojas;
+		this.fechaExpiracion = fechaExpiracion;
 	}
 
-	/**
-	 * 
-	 * @param nacionalidad
-	 */
+	// Getters y Setters
+	public int getID() {
+		return this.ID;
+	}
+
+	public void setID(int ID) {
+		this.ID = ID;
+	}
+
+	public String getNacionalidad() {
+		return this.nacionalidad;
+	}
+
 	public void setNacionalidad(String nacionalidad) {
 		this.nacionalidad = nacionalidad;
 	}
@@ -24,49 +36,32 @@ public class Pasaporte {
 		return this.num_hojas;
 	}
 
-	/**
-	 * 
-	 * @param num_hojas
-	 */
 	public void setNum_hojas(int num_hojas) {
 		this.num_hojas = num_hojas;
-	}
-
-	/**
-	 * 
-	 * @param ID
-	 */
-	public void setID(int ID) {
-		// TODO - implement Pasaporte.setID
-		throw new UnsupportedOperationException();
-	}
-
-	public String getNacionalidad() {
-		return this.nacionalidad;
 	}
 
 	public Date getFechaExpiracion() {
 		return this.fechaExpiracion;
 	}
 
-	/**
-	 * 
-	 * @param fechaExpiracion
-	 */
 	public void setFechaExpiracion(Date fechaExpiracion) {
 		this.fechaExpiracion = fechaExpiracion;
 	}
 
-	public boolean esValido() {
-		// TODO - implement Pasaporte.esValido
-		throw new UnsupportedOperationException();
+	// Métodos de validación (no son estáticos)
+	public void esValido() {
+		if (this.fechaExpiracion.before(new Date())) {
+			System.out.println("El pasaporte está expirado. No puede subir al avión.");
+		} else {
+			System.out.println("El pasaporte es válido. Puede subir al avión.");
+		}
 	}
 
-	public Pasaporte(int ID, String nacionalidad, int num_hojas, Date fechaExpiracion) {
-		this.ID = ID;
-		this.nacionalidad = nacionalidad;
-		this.num_hojas = num_hojas;
-		this.fechaExpiracion = fechaExpiracion;
+	public void contarHojas() {
+		if (this.num_hojas > 0) {
+			System.out.println("Todavía quedan hojas en el pasaporte.");
+		} else {
+			System.out.println("Necesitas un pasaporte nuevo, no te quedan hojas.");
+		}
 	}
-
 }

@@ -79,6 +79,20 @@ public class Vuelo {
 	}
 
 	public void validarPasaporte(Pasajeros pasajero) {
-		// Implementación pendiente
+		// Obtienes el pasaporte del pasajero
+		Pasaporte pasaporte = pasajero.getPasaporte();
+
+		// Validar si el pasaporte no es null antes de llamarlo
+		if (pasaporte != null) {
+			pasaporte.esValido();
+			pasaporte.contarHojas();
+		} else {
+			System.out.println("El pasajero no tiene un pasaporte registrado.");
+		}
+	}
+
+
+	public void registrarWeones(){
+		System.out.println("Pilotos: "+ getPilotos()+ "Pasajeros: "+ getPasajeros());
 	}
 }
