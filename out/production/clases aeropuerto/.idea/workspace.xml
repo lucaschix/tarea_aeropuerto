@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf9b17e6-5187-4020-9555-b682e2b0fc55" name="Changes" comment="creacion de los agregar">
+      <change beforePath="$PROJECT_DIR$/Aeropuerto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aeropuerto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pasajeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasajeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pasaporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasaporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Piloto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Piloto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vuelo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucaschix&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucaschix/tarea_aeropuerto.git&quot;,
+    &quot;accountId&quot;: &quot;231d9194-807d-4ccb-b3ab-3accdf26a5ba&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2nfgb6GYvXDSYamyvovRJlgxX97" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rama-de-trabajo&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/colom/OneDrive/Escritorio/VPProjects/clases aeropuerto&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="clases aeropuerto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf9b17e6-5187-4020-9555-b682e2b0fc55" name="Changes" comment="" />
+      <created>1729369612681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729369612681</updated>
+    </task>
+    <task id="LOCAL-00001" summary="creacion de los agregar">
+      <option name="closed" value="true" />
+      <created>1729375340318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729375340318</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creacion de los agregar">
+      <option name="closed" value="true" />
+      <created>1729376815223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729376815223</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creacion de los agregar" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de los agregar" />
+  </component>
+</project>
